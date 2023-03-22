@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Hat</title>
+    <meta
+      name="description"
+      content="Are you a real Harry Potter fan? Try our quiz and find out!"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script async src="sortingHat.js"></script>
+  </head>
+  <body>
+    <!-- <script src="sortingHat.js"></script> -->
+    <header id="header">
+      <img id="logo" src="logo2.png" alt="Wizard Library logo." />
+      <div id="menu">
+        <a class="menulinks" href="index.html" target="_top">The Great Hall</a>
+        <!-- Main site -->
+        <a class="menulinks" href="Houses.html" target="_top">Houses</a
+        ><!--Information about the houses-->
+        <a class="menulinks" href="sortingHat.html" target="_top">Sorting Hat</a
+        ><!--Quiz to find out which house the user belongs to-->
+        <a class="menulinks" href="spells.html" target="_top">Spells</a>
+        <!--Information about spells-->
+        <a class="menulinks" href="chamber.html" target="_top"
+          >Chamber of Secrets</a
+        >
+      </div>
+    </header>
+    <h1>Sorting Hat</h1>
+    <div id="outsideBox">
+      <div id="box">
+        <div id="questionsBox" class="hide">
+          <div id="questions">q</div>
+          <div id="options">
+            <button class="answer"></button>
+            <button class="answer"></button>
+            <button class="answer"></button>
+            <button class="answer"></button>
+          </div>
+        </div>
+        <div id="controlButtons">
+          <button id="getStarted">Get started</button>
+          <button id="send" class="hide">Next question</button>
+        </div>
+        <div id="styleReplay">
+          <p id="replayTitle" class="hide">Number of times you've played:</p>
+          <div id="replay"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

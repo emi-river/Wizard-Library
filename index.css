@@ -1,0 +1,223 @@
+body {
+  margin: 0%;
+  background: #4c2d24;
+}
+
+header {
+  background: #391d14;
+  text-align: center;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+  padding: auto;
+  padding-bottom: 0.5rem;
+}
+
+.menulinks {
+  color: aliceblue;
+  font-size: large;
+  text-decoration: none;
+  padding: 0.25em 0.5em;
+  margin: 3rem;
+}
+
+#menu {
+  background-color: #4c2d24;
+  color: aliceblue;
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 0.01cm;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+#menu:hover {
+  background-color: #391d14;
+}
+
+.menulinks:hover {
+  color: aliceblue;
+  border-left: dotted;
+  border-right: dotted;
+}
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 200%;
+}
+
+h2 {
+  color: aliceblue;
+  font-size: 170%;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+h3 {
+  color: aliceblue;
+  font-size: large;
+}
+
+.categories {
+  float: left;
+  padding: 2rem;
+  margin-left: 4rem;
+}
+
+#nineSpells {
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  margin: 1em;
+}
+
+#displaySpells {
+  text-align: center;
+  border: solid;
+  border-color: aliceblue;
+  border-width: 0.1em;
+  padding: 1em;
+  margin: 2em;
+  width: 25%;
+}
+
+#fourHouses {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#displayHouses {
+  text-align: center;
+  border: double;
+  border-color: aliceblue;
+  padding: 1em;
+  margin: 1em;
+}
+
+#chart {
+  border: solid;
+  border-color: aliceblue;
+  border-width: 0.1em;
+  padding: 1em;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em;
+  height: fit-content;
+}
+
+#styleReplay {
+  font-weight: bold;
+}
+
+#outsideBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+#box {
+  background-color: aliceblue;
+  border-radius: 2em;
+  max-width: 50%;
+  width: 500px;
+  padding: 1em 2em;
+}
+
+#questions {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+#options {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  gap: 1em;
+  margin: 1em 0;
+}
+
+button {
+  font-size: larger;
+  color: black;
+  padding: 0.5em;
+  background-color: #718d63;
+  border-color: darkolivegreen;
+  border-width: 0.18em;
+  border-radius: 0.5em;
+}
+
+button:hover {
+  border: dashed;
+  background-color: darkolivegreen;
+  border-color: #173608;
+}
+
+button.correct {
+  background-color: #2cc340;
+  border-color: #1b7626;
+}
+
+button.incorrect {
+  background-color: #4a5e40;
+  color: #4a5e40;
+}
+
+button.incorrect:hover {
+  color: black;
+}
+
+#controlButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#getStarted,
+#send {
+  font-size: larger;
+  background-color: lightgray;
+  border-color: lightgray;
+  padding: 0.5em 0.7em;
+}
+
+#getStarted:hover,
+#send:hover {
+  border: solid;
+  background-color: lightgray;
+  border-color: grey;
+}
+
+.hide {
+  display: none;
+}
+
+#citiesBox {
+  display: flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  margin: 1em;
+}
+
+#display {
+  text-align: center;
+  border: solid;
+  border-color: aliceblue;
+  border-width: 0.1em;
+  padding: 1em;
+  margin: 2em;
+  width: 25%;
+}
+#fetchBox {
+  color: aliceblue;
+}

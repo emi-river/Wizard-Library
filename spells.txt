@@ -1,0 +1,89 @@
+(1) [19]X
+Id: c701a1c0-580f-45da-bd2e-45857ea5ddeb
+name: Killing curse
+incantation: Avada Kedavra
+effect: Instantaneous death
+type: curse
+------------
+(2) [199]X
+Id: 010b6076-93d4-4148-95c3-f31922304a74
+name: Full Body-Bind Curse
+incantation: Petrificus Totalus
+effect: Temporary Paralysis
+type: curse
+------------
+(3) [249]X
+Id: 07aad5c5-28a5-4d82-95cc-f51741d1fb05
+name: Sectumsempra
+incantation: Sectumsempra
+effect: Lacerates target
+type: curse
+------------
+(4) [239]X
+Id: e29ec424-593e-40b7-a144-829d29556f76
+name: Boggart-Banishing Spell
+incantation: Riddikulus
+effect: Turns a Boggart into something amusing
+type: charm
+------------
+(5) [7]X
+Id: aede8168-528c-4888-8c14-a38b6c5e6a97
+name: Unlocking Charm
+incantation: Alohomora
+effect: Unlocks objects
+type: charm
+-------------
+(6) [71]
+Id: 8dac9868-5aea-4fba-9b02-f322168f52be
+name: Disarming Charm
+incantation: Expelliarmus
+effect: Disarms an opponent
+type: charm
+-------------
+(7) [301]X
+Id: b907b56f-d643-4e9a-a37f-caa18b61ab97
+name: Levitation Charm
+incantation: Wingardium Leviosa
+effect: Makes objects levitate
+type: charm
+-------------
+(8) [173]X
+Id: 24cc1ff1-036f-41a5-a301-ee684423b1ca
+name: Wand-Lighting Charm
+incantation: Lumos
+effect: Illuminates the wand tip
+type: charm
+-------------
+(9) [211]X
+Id: 52f79029-2ded-4e97-b450-e6dd0c13631c
+name: Memory charm
+incantation: Obliviate
+effect: Erases memories
+type: charm
+-------------
+(10) [93]X
+Id: 90e5b314-fa78-4b02-9bbc-ca37736b7f9f
+name: Patronus Charm
+incantation: Expecto Patronum
+effect: Conjures a spirit guardian
+type: charm
+
+
+
+
+
+---------------------------------
+
+      <ul>
+        <!--List for 10 spells.-->
+        <!-- <li id="one"></li> -->
+        <li id="two"></li>
+        <li id="three"></li>
+        <li id="four"></li>
+        <li id="five"></li>
+        <li id="six"></li>
+        <li id="seven"></li>
+        <li id="eight"></li>
+        <li id="nine"></li>
+        <li id="ten"></li>
+      </ul>

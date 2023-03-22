@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chamber of Secrets</title>
+    <meta name="description" content="Add, remove or change cities." />
+    <link rel="stylesheet" href="index.css" />
+    <script async src="chamber.js"></script>
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <img id="logo" src="logo2.png" alt="Wizard Library logo." />
+        <div id="menu">
+          <a class="menulinks" href="index.html" target="_top">The Great Hall</a
+          ><!-- Main site -->
+          <a class="menulinks" href="Houses.html" target="_top">Houses</a
+          ><!--Information about the houses-->
+          <a class="menulinks" href="sortingHat.html" target="_top"
+            >Sorting Hat</a
+          ><!--Quiz to find out which house the user belongs to-->
+          <a class="menulinks" href="spells.html" target="_top">Spells</a>
+          <!--Information about spells-->
+          <a class="menulinks" href="chamber.html" target="_top"
+            >Chamber of Secrets</a
+          ><!--Cities-->
+        </div>
+      </header>
+      <h1>Chamber of Secrets</h1>
+      <div id="fetchBox">
+        <p>
+          Add a new city:
+          <input type="text" id="addName" placeholder="Name" />
+          <input type="text" placeholder="Population" id="addPopulation" />
+          <input type="button" id="addCity" value="Add" />
+        </p>
+        <p>
+          Change a city:
+          <input type="text" id="chosenId" placeholder="ID-number" />
+          <input type="text" id="changeName" placeholder="Name" />
+          <input type="text" id="changePop" placeholder="Population" />
+          <input type="button" id="changeCity" value="Change" />
+        </p>
+        <p>
+          Delete a city with ID:
+          <input type="text" id="delete" placeholder="ID-number" />
+          <input type="button" id="deleteSend" value="Delete" />
+        </p>
+      </div>
+      <div id="citiesBox"></div>
+    </main>
+  </body>
+</html>
